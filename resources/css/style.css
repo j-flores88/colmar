@@ -1,0 +1,139 @@
+html {
+  font-size: 16px;
+  line-height: 1;
+}
+/* Header and Navigation Bar Section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 4rem;
+}
+.title {
+  display: inline-flex;
+  align-items: center;
+
+  padding-left: 1.5rem;
+
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+nav {
+  padding-right: 1.5rem;
+}
+nav span {
+  padding-left: 1rem;
+}
+/* Media Queries For Header + Nav Bar */
+@media only screen and(max-width: 470px) {
+
+}
+/* Main Section */
+.main-one {
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 40rem;
+
+  background-color: #cccccc;
+  margin-bottom: 2rem;
+}
+.banner {
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
+  width: 60%;
+  height: auto;
+
+  margin: 2rem 1.5rem;
+}
+.start-here {
+  display: inline-flex;
+  flex-flow: column;
+
+  width: 25%;
+  height: 35%;
+
+  margin: 13rem 1.5rem 4rem 0rem;
+  /*
+  border: 1px solid black;
+  */
+}
+.start-here h1 {
+  font-size: 2.5rem;
+}
+.start-here h3 {
+  font-size: 1.5rem;
+  padding: 1rem 0rem;
+}
+.button {
+  padding: .5rem 0rem;
+
+  font-size: 1.0rem;
+  text-align: center;
+  color: #ffffff;
+
+  background-color: #595959;
+
+  width: 90%;
+  height: auto;
+
+  border-radius: 10px;
+}
+/* Media Querie for Main Section */
+@media only screen and(max-width: 470px){
+
+}
+/*Info Section*/
+.information {
+  display: flex;
+  justify-content: space-around;
+
+  border: 1px solid black;
+}
+.info-main {
+  margin: 2rem 1.5rem;
+
+  border: 1px solid black;
+
+  display: inline-flex;
+  justify-content: flex-start;
+  flex-flow: column;
+}
+.info-main img {
+  width: 100%;
+  height: auto;
+}
+/*Column Section*/
+.info-column {
+  display: flex;
+  flex-flow: column;
+
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+
+  border: 1px solid black;
+}
+.column img {
+  width: 35%;
+  height: inherit;
+}
+.column {
+  display: inline-flex;
+  flex-flow: wrap;
+  align-items: center;
+
+  padding: .05rem;
+
+  border: 1px solid black;
+}
+.column-text {
+  margin: 1rem;
+
+
+}
